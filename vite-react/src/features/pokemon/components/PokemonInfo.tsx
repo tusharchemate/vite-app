@@ -11,7 +11,7 @@ interface PokemonInfoProps {
 }
 const PokemonInfo = ({ height, weight, abilities }: PokemonInfoProps) => {
   return (
-    <div className="max-w-4xl mx-auto p-6 rounded-lg shadow-lg">
+    <div className="max-w-4xl mx-auto p-4 rounded-lg shadow-lg">
       <div className="grid grid-cols-2 gap-6 m-2 w-full">
         <div>
           <h2 className="text-lg font-semibold">{PokemonInfoEnums.Height}</h2>
